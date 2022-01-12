@@ -9,7 +9,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	color: #9c9c93;	/*全体の文字色*/
+	color: #696969;	/*全体の文字色 元の色9c9c93*/	
 	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 14px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
@@ -31,7 +31,7 @@ h2 {
 	margin-bottom: 15px;
 	color: #fff;			/*文字色*/
 	padding: 5px 20px;		/*上下、左右への余白*/
-	background: #9c9c93;	/*背景色*/
+	background: #696969;	/*背景色*/
 	border-radius: 4px;		/*角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が不要ならこの１行削除。*/
 }
 
@@ -42,7 +42,7 @@ h3 {
 	margin-bottom: 15px;
 	padding: 3px 20px;			/*上下、左右への余白*/
 	border-radius: 4px;			/*角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が不要ならこの１行削除。*/
-	border: 2px solid #9c9c93;	/*枠線の幅、線種、色*/
+	border: 2px solid #696969;	/*枠線の幅、線種、色*/
 }
 
 /*段落タグ設定
@@ -54,7 +54,7 @@ p {
 /*リンク設定
 ---------------------------------------------------------------------------*/
 a {
-	color: #9c9c93;	/*リンクテキストの色*/
+	color: #696969;	/*リンクテキストの色*/
 	-webkit-transition: 0.5s;	/*マウスオン時の移り変わるまでの時間設定。0.5秒。*/
 	transition: 0.5s;			/*同上*/
 }
@@ -94,8 +94,8 @@ header {
 /*メニュー全体を囲むブロック*/
 #menubar {
 	margin: 50px 0px;	/*メニューブロックの上下(ブロックの外側)に空けるスペース*/
-	border-top: 3px solid #9c9c93;		/*上の線の幅、線種、色*/
-	border-bottom: 3px solid #9c9c93;	/*下の線の幅、線種、色*/
+	border-top: 3px solid #696969;		/*上の線の幅、線種、色*/
+	border-bottom: 3px solid #696969;	/*下の線の幅、線種、色*/
 	text-align: center;	/*メニューブロックの内容をセンタリングする設定*/
 }
 /*メニュー１個あたりの設定*/
@@ -105,13 +105,13 @@ header {
 #menubar li a {
 	text-decoration: none;
 	padding: 10px 20px;				/*10pxは上下に、20pxは左右へ空ける余白指定。*/
-	color: #9c9c93;					/*文字色*/
+	color: #696969;					/*文字色*/
 	font-size: 20px;				/*文字サイズを少し大きくする設定。お好みで変更して下さい。*/
 	letter-spacing: 0.2em;			/*文字感覚を少し広くする設定。広くしないでいいなら、この１行を削除。*/
 }
 /*マウスオン時の設定*/
 #menubar li a:hover {
-	background: #9c9c93;	/*背景色*/
+	background: #696969;	/*背景色*/
 	color: #fff;			/*文字色*/
 }
 
@@ -169,7 +169,7 @@ footer .pr {
 	margin-bottom: 15px;
 }
 .ta1, .ta1 td, .ta1 th {
-	border: 2px solid #9c9c93;	/*テーブルの枠線の幅、線種、色*/
+	border: 2px solid #696969;	/*テーブルの枠線の幅、線種、色*/
 	padding: 10px;			/*テーブル内の余白*/
 	word-break: break-all;
 }
@@ -209,7 +209,7 @@ footer .pr {
 #menubar li {
 	display: block;	/*メニューを「横並び」から「縦並び」に変更する設定*/
 	margin-bottom: 5px;
-	border-bottom: 3px solid #9c9c93;	/*下の線の幅、線種、色を追加指定*/
+	border-bottom: 3px solid #696969;	/*下の線の幅、線種、色を追加指定*/
 }
 
 /*Galleryページ
@@ -222,10 +222,10 @@ footer .pr {
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
 #new h2.open {
-	background: #9c9c93 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+	background: #696969 url(../images/btn_minus.png) no-repeat right center/34px 34px;
 }
 #new h2.close {
-	background: #9c9c93 url(../images/btn_plus.png) no-repeat right center/34px 34px;
+	background: #696969 url(../images/btn_plus.png) no-repeat right center/34px 34px;
 }
 
 /*テーブル
